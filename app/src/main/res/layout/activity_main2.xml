@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="?android:attr/windowTitleSize"
+    android:background="#AE000000"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:background="@drawable/drawables2"
+        android:text="LOGIN"
+        android:textAllCaps="false"
+        android:textColor="#D6D6D6"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:rippleColor="#D86F6F"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:background="@drawable/drawables2"
+        android:text="SIGN UP"
+        android:textAllCaps="false"
+        android:textColor="#C1C1C1"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:rippleColor="#D86F6F"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="570dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="1128dp"
+        android:layout_height="1080dp"
+        android:alpha="@dimen/material_emphasis_medium"
+        android:background="#95FFFFFF"
+        app:srcCompat="@drawable/z25282610v_pkn_orlen"
+        tools:layout_editor_absoluteX="-477dp"
+        tools:layout_editor_absoluteY="-185dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="156dp"
+        android:layout_height="160dp"
+        app:srcCompat="@drawable/orlen"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="283dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Your Username"
+        android:textColor="#B7000000"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="283dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textColor="#A9000000"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="283dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textColor="#A9000000"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="283dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Confirm Password"
+        android:textColor="#B2000000"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z nami zawsze po drodze"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To, co najlepsze, wszędzie tam, gdzie Ty"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="678dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

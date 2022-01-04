@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="926dp"
+        android:layout_height="1006dp"
+        android:alpha="@dimen/material_emphasis_medium"
+        android:background="#000000"
+        app:srcCompat="@drawable/zrzut_ekranu_2021_07_10_204519"
+        tools:layout_editor_absoluteX="-258dp"
+        tools:layout_editor_absoluteY="-138dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="641dp"
+        android:layout_height="445dp"
+        android:rotationY="29"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="-115dp"
+        tools:layout_editor_absoluteY="-64dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="321dp"
+        android:layout_height="41dp"
+        android:autoText="true"
+        android:hint="hint"
+        android:text="Username"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editText"
+        android:layout_width="321dp"
+        android:layout_height="41dp"
+        android:autoText="true"
+        android:hint="hint"
+        android:text="Password"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:background="@drawable/drawables"
+        android:text="LOGIN"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:rippleColor="#D86F6F"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="431dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:background="@drawable/drawables"
+        android:text="SIGN UP"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:rippleColor="#D86F6F"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
